@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(255, 248, 220);
+    color: white;
+}
+
+.caixa__principal{
+    background-color: #8a2be2;
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7.5% auto;
+    border-radius: 20px;
+}
+.caixa__esquerda{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+.caixa__esquerda > h1{
+    color: #2a0077;
+}
+.caixa__direita{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+.caixa__login{
+    width: 70%;
+    background-color: #4a00d2;
+    height: 52vh;
+    border-radius: 10px;
+    box-shadow: 0 1rem 40px #2a0077;
+    margin: 0 auto;
+}
+.caixa__login >  h1{
+    color:#55ff00 ;
+}
+.caixa__usuario{
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.caixa__usuario > input{
+    width: 90%;
+    background-color: rgb(45, 0, 85);
+    padding: 1rem ;
+    border-radius: 5px;
+    margin: 1rem auto;
+    outline: none;
+    border: none;
+    color: white;
+}
+.caixa__usuario > input::placeholder{
+    left: 10px;
+}
+img{
+    width: 60%;
+    margin: 0 auto;
+}
+button{
+    width: 99%;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 1rem 0;
+    outline: none;
+    border: none;
+    background-color: #55ff00;
+    color: rgb(0, 0, 0);
+}
+
+.caixa__final{
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    margin: 0 auto 2rem auto;
+}
+a{
+    text-decoration: none;
+    color: #55ff00;
+    font-weight: 400;
+    padding-top: 2rem;
+    font-size:15px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: -40px;
+    margin-right: 2rem;
+}
+/*Ajustes para smartphones*/
+@media(max-width: 600px){
+    body{
+        background-color: #8a2be2;
+    }
+    .caixa__principal{
+        width: 100%;
+        height:100%;
+        border-radius: 0;
+        flex-direction: column ;
+    }
+    .caixa__esquerda{
+        width: 100%;
+        height: 100%;
+    }
+    .caixa__direita{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .caixa__login{
+        width:100%;
+        height: 50%!important;
+        background-color: #4a00d2;
+        border-radius: 0px;
+        box-shadow: 0px 0 0;
+        margin:40px auto;
+    }
+    input{
+        width:25%;
+        background-color: rgb(45, 0, 85);
+        padding: 1rem ;
+        border-radius: 5px;
+        margin: .5rem auto;
+        outline: none;
+        border: none;
+        color: white;
+    }
+    img{
+        width: 400px;
+    }
+    .caixa__final{
+        width: 100px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+    a{
+        text-decoration: none;
+        color: #55ff00;
+        font-weight: 400;
+        font-size:15px;
+        display: flex;
+        justify-content: center !important;
+        margin: 0px auto 2rem auto !important;
+        
+    }
+}
+
