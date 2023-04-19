@@ -2,8 +2,8 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(255, 248, 220);
-    color: white;
+    background-color: rgb(89, 255, 0);
+    color: rgb(255, 255, 255);
 }
 .caixa__principal{
     background-color: #8a2be2;
@@ -104,23 +104,25 @@ button{
 .rodape{
     background-color: #27003b;
     width: 100%;
-    height: 10%;
     color: #55ff00;
 }
 .rodape-box{
-    margin: 0 auto;
     width: 50%;
+    height:200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 9rem;
+    padding: 1rem;
 }
 
 .rodape__end__texto{
-    font-size: 12px;
+    font-size: 15px;
+    margin: 1px;
 }
 .rodape__sobre_texto{
-    font-size: 12px;
-   
+    font-size: 15px;
+    margin: 1px;
 }
 .rodape__sobre_texto > a{
     color: #55ff00;
@@ -129,7 +131,7 @@ button{
 }
 .rodape_midias_lista{
     list-style: none;
-    font-size: 10px;
+    font-size: 15px;
     margin: 0;
     padding: 0;
 }
@@ -192,7 +194,6 @@ button{
         border: none;
         color: white;
     }
-    
     img{
         width: 350px;
     }
@@ -214,12 +215,7 @@ button{
         justify-content: center !important;
         margin: 0px auto 2rem auto !important;
     }
-    .rodape{
-        background-color: #27003b;
-        width: 100%;
-        height: 10%;
-        color: #55ff00;
-    }
+    
     .rodape-box{
         margin: 0 auto;
         width: 80%;
@@ -232,6 +228,6 @@ button{
         padding: 0;
     }
     .rodape_midias_lista_item{
-        margin: 0.8rem;
+        margin: 0.5rem;
     }
 }
