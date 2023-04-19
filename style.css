@@ -114,8 +114,11 @@ button{
     justify-content: space-between;
     align-items: center;
 }
+.rodape__end__texto{
+    font-size: 12px;
+}
 .rodape__sobre_texto{
-    font-size: 15px;
+    font-size: 12px;
    
 }
 .rodape__sobre_texto > a{
@@ -125,10 +128,11 @@ button{
 }
 .rodape_midias_lista{
     list-style: none;
+    font-size: 10px;
 }
 
 .rodape_midias_lista_item > a{
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #55ff00;
 }
 /*Ajustes para smartphones*/
@@ -221,9 +225,11 @@ button{
     .rodape_midias_lista{
         list-style: none;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding: 0;
     }
     .rodape_midias_lista_item{
-        margin: .2rem;
+        padding: 0.2rem;
     }
 }
