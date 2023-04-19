@@ -109,11 +109,12 @@ button{
 }
 .rodape-box{
     margin: 0 auto;
-    width: 80%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .rodape__end__texto{
     font-size: 12px;
 }
@@ -129,6 +130,8 @@ button{
 .rodape_midias_lista{
     list-style: none;
     font-size: 10px;
+    margin: 0;
+    padding: 0;
 }
 
 .rodape_midias_lista_item > a{
@@ -225,11 +228,10 @@ button{
     .rodape_midias_lista{
         list-style: none;
         display: flex;
-        justify-content: space-between;
         margin: 0 auto;
         padding: 0;
     }
     .rodape_midias_lista_item{
-        padding: 0.2rem;
+        margin: 0.8rem;
     }
 }
