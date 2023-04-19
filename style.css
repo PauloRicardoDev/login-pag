@@ -8,7 +8,7 @@ body{
 .caixa__principal{
     background-color: #8a2be2;
     width: 80%;
-    height: 600px !important;
+    height: 550px !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,7 +90,7 @@ button{
     flex-direction: column;
     margin: 0 auto 2rem auto;
 }
-a{
+#link{
     text-decoration: none;
     color: #55ff00;
     font-weight: 400;
@@ -100,6 +100,36 @@ a{
     justify-content: flex-end;
     margin-bottom: -40px;
     margin-right: 2rem;
+}
+.rodape{
+    background-color: #27003b;
+    width: 100%;
+    height: 10%;
+    color: #55ff00;
+}
+.rodape-box{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rodape__sobre_texto{
+    font-size: 15px;
+   
+}
+.rodape__sobre_texto > a{
+    color: #55ff00;
+    font-weight: 550;
+    text-decoration: none;
+}
+.rodape_midias_lista{
+    list-style: none;
+}
+
+.rodape_midias_lista_item > a{
+    font-size: 1.2rem;
+    color: #55ff00;
 }
 /*Ajustes para smartphones*/
 @media(max-width:1250px){
@@ -168,7 +198,7 @@ a{
         flex-direction: column;
         margin-bottom: 2rem;
     }
-    a{
+    #link{
         text-decoration: none;
         color: #55ff00;
         font-weight: 400;
@@ -176,5 +206,24 @@ a{
         display: flex;
         justify-content: center !important;
         margin: 0px auto 2rem auto !important;
+    }
+    .rodape{
+        background-color: #27003b;
+        width: 100%;
+        height: 10%;
+        color: #55ff00;
+    }
+    .rodape-box{
+        margin: 0 auto;
+        width: 80%;
+        flex-direction: column;
+    }
+    .rodape_midias_lista{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+    .rodape_midias_lista_item{
+        margin: .2rem;
     }
 }
