@@ -129,11 +129,11 @@ a{
         height: 100%;
     }
     .caixa__login{
-        width:100%!important;
+        width:400px!important;
         height: 60% !important;
         background-color: #4a00d2;
-        border-radius: 0px;
-        box-shadow: 0px 0 0;
+        border-radius: 10px;
+        box-shadow: 0 1rem 40px #2a0077;
         margin:40px auto !important;
     }
     .caixa__usuario{
@@ -157,7 +157,7 @@ a{
     }
     
     img{
-        width: 300px;
+        width: 350px;
     }
     .caixa__final{
         width: 100px;
