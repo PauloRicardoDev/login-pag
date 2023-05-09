@@ -28,12 +28,6 @@ body{
 .caixa__esquerda > h1{
     color: #ffffff;
 }
-.caixa__esquerda > h2{
-    font-size: 20px;
-    color: #ffffff;
-    font-weight: 300;
-}
-
 .caixa__direita{
     display: flex;
     justify-content: center;
