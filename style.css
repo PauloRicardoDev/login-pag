@@ -2,13 +2,12 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(to top, rgba(23, 23, 23, 0.91), rgba(12, 12, 12, 0.915)), url("banner_Login.jpg");
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.927), rgba(0, 0, 0, 0.922)), url("banner_Login.jpg");
     background-size: cover;
-    
     color: rgb(255, 255, 255);
 }
 .caixa__principal{
-    background: linear-gradient(to top, rgba(23, 23, 23, 0.356), rgba(12, 12, 12, 0.367)), url("banner_Login.jpg");
+    background: linear-gradient(to top, rgba(23, 23, 23, 0.356), rgba(12, 12, 12, 0.263)), url("banner_Login.jpg");
     background-size: cover;
     width: 80%;
     height: 550px !important;
@@ -27,19 +26,12 @@ body{
     height: 100%;
 }
 .caixa__esquerda > h1{
-    color: #c0c0c0;
+    color: #ffffff;
 }
 .caixa__esquerda > h2{
     font-size: 20px;
     color: #ffffff;
     font-weight: 300;
-}
-.caixa__esquerda > span{
-    font-size: 13px;
-    background-color: #121212;
-    padding: 0.5rem 0 0.5rem 0;
-    color: #ffffff;
-    border-radius: 0 10px 10px 0;
 }
 
 .caixa__direita{
@@ -52,7 +44,7 @@ body{
 }
 .caixa__login{
     width: 70%;
-    background-color: #000000;
+    background-color: #0d0d0d;
     height: 400px !important;
     border-radius: 10px;
     /*box-shadow: 0 1rem 40px #1b1b1b;*/
