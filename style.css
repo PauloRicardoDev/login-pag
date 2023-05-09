@@ -25,8 +25,20 @@ body{
     width: 50%;
     height: 100%;
 }
+.caixa__esquerda > img {
+    width: 200px;
+}
 .caixa__esquerda > h1{
-    color: #ffffff;
+    color: #62ff00;
+}
+.caixa__esquerda > h2{
+    color: #000000;
+    padding: 0.5rem;
+    background-color: #55ff00;
+    border-radius: 0 10px 10px 0;
+}
+.caixa__esquerda >  h3{
+    color:#000000 ;
 }
 .caixa__direita{
     display: flex;
@@ -45,8 +57,9 @@ body{
     margin: 0 auto;
 }
 .caixa__login >  h1{
-    color:#707070 ;
+    color:#62ff00 ;
 }
+
 .caixa__usuario{
     width: 80%;
     border-radius: 10px;
