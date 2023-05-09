@@ -2,18 +2,21 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(89, 255, 0);
+    background: linear-gradient(to top, rgba(23, 23, 23, 0.91), rgba(12, 12, 12, 0.915)), url("banner_Login.jpg");
+    background-size: cover;
+    
     color: rgb(255, 255, 255);
 }
 .caixa__principal{
-    background-color: #8a2be2;
+    background: linear-gradient(to top, rgba(23, 23, 23, 0.356), rgba(12, 12, 12, 0.367)), url("banner_Login.jpg");
+    background-size: cover;
     width: 80%;
     height: 550px !important;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 7.5% auto;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .caixa__esquerda{
     display: flex;
@@ -24,8 +27,21 @@ body{
     height: 100%;
 }
 .caixa__esquerda > h1{
-    color: #2a0077;
+    color: #c0c0c0;
 }
+.caixa__esquerda > h2{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 300;
+}
+.caixa__esquerda > span{
+    font-size: 13px;
+    background-color: #121212;
+    padding: 0.5rem 0 0.5rem 0;
+    color: #ffffff;
+    border-radius: 0 10px 10px 0;
+}
+
 .caixa__direita{
     display: flex;
     justify-content: center;
@@ -36,14 +52,14 @@ body{
 }
 .caixa__login{
     width: 70%;
-    background-color: #4a00d2;
+    background-color: #000000;
     height: 400px !important;
     border-radius: 10px;
-    box-shadow: 0 1rem 40px #2a0077;
+    /*box-shadow: 0 1rem 40px #1b1b1b;*/
     margin: 0 auto;
 }
 .caixa__login >  h1{
-    color:#55ff00 ;
+    color:#707070 ;
 }
 .caixa__usuario{
     width: 80%;
@@ -56,7 +72,7 @@ body{
 }
 .caixa__usuario > input{
     width: 90%;
-    background-color: rgb(45, 0, 85);
+    background-color: rgb(35, 35, 35);
     padding: 1rem ;
     border-radius: 5px;
     margin: 1rem auto;
@@ -78,7 +94,7 @@ button{
     padding: 1rem 0;
     outline: none;
     border: none;
-    background-color: #55ff00;
+    background-color: #ffffff;
     color: rgb(0, 0, 0);
 }
 .caixa__final{
@@ -92,7 +108,7 @@ button{
 }
 #link{
     text-decoration: none;
-    color: #55ff00;
+    color: #ffffff;
     font-weight: 400;
     padding-top: 2rem;
     font-size:15px;
@@ -101,45 +117,7 @@ button{
     margin-bottom: -40px;
     margin-right: 2rem;
 }
-.rodape{
-    background-color: #27003b;
-    width: 100%;
-    color: #55ff00;
-}
-.rodape-box{
-    width: 50%;
-    height:200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 9rem;
-    padding: 1rem;
-}
 
-.rodape__end__texto{
-    font-size: 15px;
-    margin: 1px;
-}
-.rodape__sobre_texto{
-    font-size: 15px;
-    margin: 1px;
-}
-.rodape__sobre_texto > a{
-    color: #55ff00;
-    font-weight: 550;
-    text-decoration: none;
-}
-.rodape_midias_lista{
-    list-style: none;
-    font-size: 15px;
-    margin: 0;
-    padding: 0;
-}
-
-.rodape_midias_lista_item > a{
-    font-size: 1rem;
-    color: #55ff00;
-}
 /*Ajustes para smartphones*/
 @media(max-width:1250px){
     body{
@@ -170,9 +148,8 @@ button{
     .caixa__login{
         width:400px!important;
         height: 400px !important;
-        background-color: #4a00d2;
+        background-color: #000000;
         border-radius: 10px;
-        box-shadow: 0 1rem 40px #2a0077;
         margin:40px auto !important;
     }
     .caixa__usuario{
@@ -186,7 +163,7 @@ button{
     }
     .caixa__usuario > input{
         width: 90%;
-        background-color: rgb(45, 0, 85);
+        background-color: rgb(35, 35, 35);
         padding: 1rem ;
         border-radius: 5px;
         margin: 1rem auto;
@@ -216,18 +193,5 @@ button{
         margin: 0px auto 2rem auto !important;
     }
     
-    .rodape-box{
-        margin: 0 auto;
-        width: 80%;
-        flex-direction: column;
-    }
-    .rodape_midias_lista{
-        list-style: none;
-        display: flex;
-        margin: 0 auto;
-        padding: 0;
-    }
-    .rodape_midias_lista_item{
-        margin: 0.5rem;
-    }
+    
 }
