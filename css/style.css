@@ -116,6 +116,11 @@ button{
     margin-bottom: -40px;
     margin-right: 2rem;
 }
+a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
 
 /*Ajustes para smartphones*/
 @media(max-width:1250px){
