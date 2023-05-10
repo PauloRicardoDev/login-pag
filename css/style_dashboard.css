@@ -2,9 +2,9 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background-image: url(/imagens/background.png);
+    background-image: url(/imagens/dashboard.png);
     background-size: cover;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 header{
     background-color: rgb(0, 0, 0);
@@ -31,6 +31,9 @@ header{
     text-decoration: none;
     color:#fff1e1 ;
 }
+.cabecalho__menu > i{
+    color: white;
+}
 .titulo{
     width: 20%;
     padding: 1rem;
@@ -42,51 +45,65 @@ header{
     align-items: center;
     justify-content: space-between;
 }
+section{
+
+    width: 95%;
+    margin: 0 auto;
+}
 .principal{
-    margin: 3rem auto;
-    width: 90%;
-    height: 600px;
+    margin: 2rem auto;
+    width: 350px;
+    height: 500px;
+    background-color: #faebd7;
+    box-shadow: 0 1rem 40px #cdcdcd;
+    border-radius:5px;
+    transform: 4s;
+}
+.principal:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.principal__tema > img{
+    width: 350px;
+    height: 250px;
+    border-radius: 5px 5px 0 0;
+}
+.lista{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #faebd7;
-    box-shadow: 0 1rem 40px #cdcdcd;
-    border-radius:10px;
 }
-.principal__banner > img{
-    width: 500px;
-    border-radius: 5px;
-    margin-left: 20px;
-}
-.principal__tema{
-    background-color: #55ff00;
-    margin: -1rem 0px;
-    padding: 1.5rem;
-    border-radius: 5px;
-}
-.principal__tema > h1{
-    font-weight: 400;
+.principal_informacoes_lista_item > h1{
+    padding: 1rem;
+    text-align: center;
+    background-color:  #55ff00;
     font-size: 20px;
-}
-.principal_informacoes{
-    width: 60%;
-    margin: 0 auto;
-    
-}
-.principal_informacoes_lista{
-
-}
-.principal_informacoes_lista_item{
+} 
+h2{
     padding-top: 40px;
-    color: black;
-}
-.principal_informacoes_lista_item > h1 {
-    margin-bottom: 1rem;
-}
-.principal_informacoes_lista_item > p {
+    text-align: center;
     line-height: .6cm;
-    text-align: justify;
 }
-.info_expo-item > p{
-    line-height: .6cm;
+a{
+    text-decoration: none;
+    color: #000000;
+}
+h3{
+    margin: 3rem auto auto auto;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: #cdcdcd;
+    font-size: 15px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+#link{
+    margin: 3rem auto auto auto;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: #ffadfa;
+    font-size: 15px;
+    width: 200px;
+    border-radius: 5px;
 }
